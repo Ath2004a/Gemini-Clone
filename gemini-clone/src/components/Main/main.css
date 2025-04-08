@@ -1,0 +1,14 @@
+.loader hr {
+    background: linear-gradient(to right, #9ed7ff, #ffffff, #9ed7ff);
+    background-color: #f6f7f8;
+    animation: loader 3s infinite linear;
+}
+  
+@keyframes loader {
+    0% {
+        background-position: -800px 0px;
+    }
+    100% {
+        background-position: 800px 0px;
+    }
+}
