@@ -67,18 +67,18 @@ function Main() {
         )}
 
         <div className="absolute bottom-0 w-full max-w-4xl p-5 max-sm:p-[10px] m-auto">
-          <div className="flex items-center justify-between gap-5 rounded-full border bg-[#f0f4f9] px-5 py-2 max-sm:px-[10px] max-sm:py-[5px]">
+          <div className="search flex items-center justify-between gap-5 rounded-full border bg-[#f0f4f9] px-5 py-2 max-sm:px-[10px] max-sm:py-[5px]">
             <input
-              className="flex-1 text-base outline-none bg-transparent max-sm:flex-none max-sm:w-[150px]"
+              className="main-bottom-input flex-1 text-base outline-none bg-transparent max-sm:flex-none max-sm:w-[150px]"
               onChange={(e) => setInput(e.target.value)}
               value={input}
               type="text"
               placeholder="Enter prompt here"
             />
-            <div className="flex gap-2 max-sm:gap-[5px]">
-              <img className="w-5 h-5 cursor-pointer max-sm:w-5" src={assets.gallery_icon} />
-              <img className="w-5 h-5 cursor-pointer max-sm:w-5" src={assets.mic_icon} />
-              <img className="w-5 h-5 cursor-pointer max-sm:w-5" onClick={() => onSend()} src={assets.send_icon} />
+            <div className="search-div flex gap-2 max-sm:gap-[5px]">
+              <img className="main-bottom-img w-5 h-5 cursor-pointer max-sm:w-5" src={assets.gallery_icon} />
+              <img className="main-bottom-img w-5 h-5 cursor-pointer max-sm:w-5" src={assets.mic_icon} />
+              <img className="main-bottom-img w-5 h-5 cursor-pointer max-sm:w-5" onClick={() => onSend()} src={assets.send_icon} />
             </div>
           </div>
 

@@ -14,7 +14,7 @@ function Sidebar()
     } 
 
     return(
-        <div className="h-screen hidden sm:inline-flex flex-col justify-between bg-[#f0f4f9] p-[25px_15px]">
+        <div className="sidebar h-screen inline-flex flex-col justify-between bg-[#f0f4f9] p-[25px_15px]">
             <div>
                 <img onClick={() => {
                     setExtended(p => !p);
